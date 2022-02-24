@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ski Bum</title>
+</head>
+<body>
+    <header>
+       <h1>Ski Bum</h1>
+    </header>
+    <main>
+        <div>
+            <h2>Get Mountains</h2>
+            <button id="getM">Get M</button>
+            <section id="m"></section>
+        </div>
+        <div>
+            <h2>Get Resort</h2>
+            <button id="getR">Get R</button>
+            <section id="r"></section>
+        </div>
+        <form>
+            <h3>Mountains/Resorts I would like to Ski</h3>
+            <label for="mInput">Mountain</label>
+            <input type="text" id="mountain" placeholder="Enter mountain you would like to vist">
+            <button id="addM">ADD</button>
+            <label for="rReost">Resort</label>
+            <input type="text" id="Resort" placeholder="Name of the resort">
+            <button id="addR">ADD</button>
+        </form>
+            <section id="want">
+                <h3>I want to go</h3>
+            </section>
+        <section id="have">
+            <h3>I have been</h3>
+        </section>
+    </main>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
